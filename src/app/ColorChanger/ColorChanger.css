@@ -1,0 +1,38 @@
+.colorContainer{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.varColorRectangle{
+    width:60%;
+    height: 10rem;
+    background:gray;
+    margin:3rem 0;
+    border-radius: 0.5rem;
+}
+
+.colorOptions{
+    display:grid;
+    width:100%;
+    height:auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:1rem;
+}
+
+.redRectangle,
+.blueRectangle,
+.greenRectangle,
+.yellowRectangle{
+    height:10vh;
+    width:100%;
+    justify-self: center;
+    border-radius: 1rem;
+}

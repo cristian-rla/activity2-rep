@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+html, body{
+  height: 100%;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Counter{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  width: 67%;
+  height: 100%;
+  margin:auto;
+  justify-content: center;
+}
+
+.Display{
+  display:flex;
+  justify-content: center;
+}
+
+.Display h1{
+  font-size: 2rem;
+}
+
+.Buttons{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.UpButton, 
+.DownButton{
+  color:white;
+  padding: 1rem;
+  margin:1rem;
+  border-radius: 1rem;
+}
+
+.DownButton{
+  background:  rgb(238, 104, 104);
+}
+
+.UpButton{
+  background: rgb(87, 173, 87);
+}
+
+.error{
+  color: rgb(238, 104, 104);
+  align-self: center;
+}

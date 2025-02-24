@@ -1,0 +1,18 @@
+.Header{
+    position: fixed;
+
+    display:flex;
+    justify-content: center;
+    top:0;
+    width:100%;
+    height: auto;
+
+    z-index:1000;
+    background: linear-gradient(90deg, rgb(45, 123, 168), rgb(122, 231, 255));
+}
+
+.HeaderLink{
+    color: white;
+    margin:1rem 2rem;
+    font-size:2rem;
+}
